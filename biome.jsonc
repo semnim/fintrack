@@ -1,0 +1,25 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"vcs": { // https://biomejs.dev/guides/integrate-in-vcs/
+		"enabled": true, // enable processing based on vsc metadata (staged / changed only files f.e.)
+		"clientKind": "git",
+		"useIgnoreFile": true // ignore everything from the .gitignore
+	},
+	"files": {
+		"ignoreUnknown": false,
+    "ignore": ["node_modules"]
+  },
+	"formatter": {
+		"enabled": true,
+    "useEditorconfig": true
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	}
+}
