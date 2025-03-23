@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FinTrack
+
+## Description
+A dashboard to track personal finances.
+
+### Stack & tools
+- Next (with typescript and tailwind)
+- Pnpm
+- Biome (linting & formatting)
+- Shadcn UI
+- Neon PSQL
+- Drizzle ORM
+- FakerJS
+- Next-auth
+- Vercel
 
 ## Getting Started
 
