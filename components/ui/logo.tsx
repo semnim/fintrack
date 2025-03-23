@@ -10,10 +10,10 @@ type Props = {
 }
 export const Logo = ({size}: Props) => {
   return (
-    <Link href={"/public"}
+    <Link href="/"
           className={
             cn(
-              "flex gap-2 items-center box-border border-b border-transparent w-min hover:border-b hover:border-red-600",
+              'box-border flex w-min items-center gap-2 border-transparent border-b hover:border-red-600 hover:border-b',
               {
                 "text-xl": size === "regular",
                 "text-4xl": size === "large",
@@ -21,8 +21,8 @@ export const Logo = ({size}: Props) => {
             )
           }
           onClick={() => redirect("/")}>
-      <ChartNoAxesColumn color={"red"} size={30}/>
-      <h1>Fin<span className={"text-red-600"}>Track</span></h1>
+      <ChartNoAxesColumn color="red" size={30}/>
+      <h1>Fin<span className="text-red-600">Track</span></h1>
     </Link>
   )
 }
